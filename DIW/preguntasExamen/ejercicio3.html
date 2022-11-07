@@ -9,9 +9,8 @@
       * {
         margin: 0;
         padding: 0;
-        font-family: solaris;
       }
-      #container {
+      .container {
         display: grid;
         grid-template-columns: 20% 80% 20%;
         grid-template-rows: 10% 80% 10%;
@@ -21,14 +20,11 @@
           "footer footer footer";
         text-align: center;
       }
-      #header {
-        background: #ff5454;
+      .header {
+        background: orangered;
         grid-area: header;
         height: 100px;
         justify-content: space-between;
-      }
-      #contenedor {
-        text-align: center;
       }
 
       .nav_bar {
@@ -50,30 +46,34 @@
         padding-left: 40px;
       }
 
-      #main {
-        background: #ffffff;
+      .main {
         grid-area: main;
       }
-      #footer {
-        background: #54a3ff;
+      .aside {
+        grid-area: aside;
+      }
+      .footer {
         grid-area: footer;
       }
     </style>
   </head>
   <body>
-    <div id="contenedor">
-      <div id="header">
+    <div class="contenedor">
+      <div class="header">
         <div class="nav_bar">
-          <div class="logo">LOGO</div>
+          <div class="logo">TIENDA DIW CSS-PRUEBA</div>
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">CONTACTO</a></li>
-            <li><a href="#">AYUDA</a></li>
+            <li><a href="#">Zapatillas</a></li>
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Relojes</a></li>
+            <li><a href="#">Calcetines</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Pie</a></li>
           </ul>
         </div>
       </div>
-      <div id="main">MAIN</div>
-      <div id="footer">FOOTER</div>
     </div>
+    <div class="main">MAIN</div>
+    <div class="footer">FOOTER</div>
   </body>
 </html>
