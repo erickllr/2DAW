@@ -9,7 +9,7 @@ PUNTÚA MÁXIMO 5/10
 -10 PREGUNTAS
 -Salen preguntas al azar
 -Opciones aparecen al azar
-- Solo una opción correcta
+-Solo una opción correcta
 MÁXIMO 7/10
 - Preguntas de 1 en 1
 MÁXIMO 8/10
